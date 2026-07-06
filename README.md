@@ -55,7 +55,3 @@ imbalanced-learn
 Подбор оптимального порога под бизнес-метрики
 Ensemble моделей
 Деплой модели (FastAPI / Flask)
-=======
-# credit-card-fraud-detection
-Fraudulent transaction detection model (XGBoost, F1-score 0.85)
->>>>>>> d8feeef3fb221aa2fd37de4701201aaadb1e5ed8
