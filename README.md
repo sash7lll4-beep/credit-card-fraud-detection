@@ -21,17 +21,9 @@
 - Анализ важности признаков
 - Визуализация обучения (Loss Curve и Learning Curve)
 
-## Структура проекта
-Credit-Card-Fraud-Detection/
-├── data/
-│   └── creditcard.csv                 # исходные данные
-├── notebooks/
-│   └── Credit_Card_Fraud_Detection.ipynb   # основной ноутбук
-├── models/                            # (опционально)
-│   ├── xgboost_fraud_model.pkl
-│   └── scaler.pkl
-├── requirements.txt
-└── README.md
+## Данные
+Датасет `creditcard.csv` можно скачать по ссылке:  
+[https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ## Как запустить
 ```bash
@@ -45,20 +37,20 @@ pip install -r requirements.txt
 # 3. Запустить Jupyter
 jupyter notebook
 Откройте файл notebooks/Credit_Card_Fraud_Detection.ipynb
-
-Технологии:
+```
+## Технологии:
 Python 3
 pandas, numpy
 scikit-learn, XGBoost
 matplotlib, seaborn
 imbalanced-learn
 
-Выводы:
+## Выводы:
 Наиболее важные признаки: V14, V12, V17, V10
 Мошеннические транзакции чаще происходят в ночное время
 Лог-преобразование суммы и создание взаимодействий признаков заметно улучшили качество модели
 
-Дальнейшая работа:
+## Дальнейшая работа:
 Интерпретация модели с помощью SHAP
 Подбор оптимального порога под бизнес-метрики
 Ensemble моделей
